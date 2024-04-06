@@ -1,6 +1,9 @@
 :root {
-    --primary: #FCF6F5FF;
-    --secondary: #2BAE66FF;
+    --primary: #fcf6f5ff;
+    /* --secondary: #2bae66ff; */
+    /* --tertiary: #ae3a2b; */
+    --secondary: #0eaf56;
+    --tertiary: #d72811;
 }
 
 body {
@@ -12,4 +15,21 @@ h1 {
     color: var(--primary);
     text-align: center;
     font-size: 3rem;
+    text-decoration: var(--tertiary) underline;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    color: var(--secondary);
+}
+
+a:hover {
+    text-decoration: var(--tertiary) underline;
+}
+
+a:visited {
+    color: var(--secondary);    
 }
